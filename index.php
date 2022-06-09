@@ -43,7 +43,7 @@ if(isset($_POST)){
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->Username = 'liviathomasipinto@gmail.com';
-		$mail->Password = 'Va1215203071'; 
+		$mail->Password = 'Senha'; 
 		$mail->Port = 587;
 		$mail->setFrom('liviathomasipinto@gmail.com'); 
 		$mail->addAddress('liviathomasipinto@gmail.com'); 
